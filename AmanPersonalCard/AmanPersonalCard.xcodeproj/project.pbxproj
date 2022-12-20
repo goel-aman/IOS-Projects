@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5223F08729095001008B26C2 /* AmanPersonalCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223F08629095001008B26C2 /* AmanPersonalCardApp.swift */; };
+		5223F08929095001008B26C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223F08829095001008B26C2 /* ContentView.swift */; };
+		5223F08B29095002008B26C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5223F08A29095002008B26C2 /* Assets.xcassets */; };
+		5223F08E29095002008B26C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5223F08D29095002008B26C2 /* Preview Assets.xcassets */; };
+		5223F09829095003008B26C2 /* AmanPersonalCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223F09729095003008B26C2 /* AmanPersonalCardTests.swift */; };
+		5223F0A229095003008B26C2 /* AmanPersonalCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223F0A129095003008B26C2 /* AmanPersonalCardUITests.swift */; };
+		5223F0A429095003008B26C2 /* AmanPersonalCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223F0A329095003008B26C2 /* AmanPersonalCardUITestsLaunchTests.swift */; };
+		5223F0B229096307008B26C2 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5223F0B129096307008B26C2 /* Pacifico-Regular.ttf */; };
+		522C50C1295034CA002ACFC1 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C50C0295034CA002ACFC1 /* SwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5223F09429095003008B26C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5223F07B29095001008B26C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5223F08229095001008B26C2;
+			remoteInfo = AmanPersonalCard;
+		};
+		5223F09E29095003008B26C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5223F07B29095001008B26C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5223F08229095001008B26C2;
+			remoteInfo = AmanPersonalCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5223F08329095001008B26C2 /* AmanPersonalCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmanPersonalCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5223F08629095001008B26C2 /* AmanPersonalCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmanPersonalCardApp.swift; sourceTree = "<group>"; };
+		5223F08829095001008B26C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5223F08A29095002008B26C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5223F08D29095002008B26C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5223F09329095003008B26C2 /* AmanPersonalCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmanPersonalCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5223F09729095003008B26C2 /* AmanPersonalCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmanPersonalCardTests.swift; sourceTree = "<group>"; };
+		5223F09D29095003008B26C2 /* AmanPersonalCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmanPersonalCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5223F0A129095003008B26C2 /* AmanPersonalCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmanPersonalCardUITests.swift; sourceTree = "<group>"; };
+		5223F0A329095003008B26C2 /* AmanPersonalCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmanPersonalCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5223F0B129096307008B26C2 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		522C50C0295034CA002ACFC1 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		5276A8702928C8F9001E49AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5223F08029095001008B26C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5223F09029095003008B26C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5223F09A29095003008B26C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5223F07A29095001008B26C2 = {
+			isa = PBXGroup;
+			children = (
+				5223F0B0290960B7008B26C2 /* fonts */,
+				5223F08529095001008B26C2 /* AmanPersonalCard */,
+				5223F09629095003008B26C2 /* AmanPersonalCardTests */,
+				5223F0A029095003008B26C2 /* AmanPersonalCardUITests */,
+				5223F08429095001008B26C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5223F08429095001008B26C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5223F08329095001008B26C2 /* AmanPersonalCard.app */,
+				5223F09329095003008B26C2 /* AmanPersonalCardTests.xctest */,
+				5223F09D29095003008B26C2 /* AmanPersonalCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5223F08529095001008B26C2 /* AmanPersonalCard */ = {
+			isa = PBXGroup;
+			children = (
+				5276A8702928C8F9001E49AE /* Info.plist */,
+				5223F08629095001008B26C2 /* AmanPersonalCardApp.swift */,
+				5223F08829095001008B26C2 /* ContentView.swift */,
+				522C50C0295034CA002ACFC1 /* SwiftUIView.swift */,
+				5223F08A29095002008B26C2 /* Assets.xcassets */,
+				5223F08C29095002008B26C2 /* Preview Content */,
+			);
+			path = AmanPersonalCard;
+			sourceTree = "<group>";
+		};
+		5223F08C29095002008B26C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5223F08D29095002008B26C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5223F09629095003008B26C2 /* AmanPersonalCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				5223F09729095003008B26C2 /* AmanPersonalCardTests.swift */,
+			);
+			path = AmanPersonalCardTests;
+			sourceTree = "<group>";
+		};
+		5223F0A029095003008B26C2 /* AmanPersonalCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5223F0A129095003008B26C2 /* AmanPersonalCardUITests.swift */,
+				5223F0A329095003008B26C2 /* AmanPersonalCardUITestsLaunchTests.swift */,
+			);
+			path = AmanPersonalCardUITests;
+			sourceTree = "<group>";
+		};
+		5223F0B0290960B7008B26C2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5223F0B129096307008B26C2 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5223F08229095001008B26C2 /* AmanPersonalCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5223F0A729095003008B26C2 /* Build configuration list for PBXNativeTarget "AmanPersonalCard" */;
+			buildPhases = (
+				5223F07F29095001008B26C2 /* Sources */,
+				5223F08029095001008B26C2 /* Frameworks */,
+				5223F08129095001008B26C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmanPersonalCard;
+			productName = AmanPersonalCard;
+			productReference = 5223F08329095001008B26C2 /* AmanPersonalCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5223F09229095003008B26C2 /* AmanPersonalCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5223F0AA29095003008B26C2 /* Build configuration list for PBXNativeTarget "AmanPersonalCardTests" */;
+			buildPhases = (
+				5223F08F29095003008B26C2 /* Sources */,
+				5223F09029095003008B26C2 /* Frameworks */,
+				5223F09129095003008B26C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5223F09529095003008B26C2 /* PBXTargetDependency */,
+			);
+			name = AmanPersonalCardTests;
+			productName = AmanPersonalCardTests;
+			productReference = 5223F09329095003008B26C2 /* AmanPersonalCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5223F09C29095003008B26C2 /* AmanPersonalCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5223F0AD29095003008B26C2 /* Build configuration list for PBXNativeTarget "AmanPersonalCardUITests" */;
+			buildPhases = (
+				5223F09929095003008B26C2 /* Sources */,
+				5223F09A29095003008B26C2 /* Frameworks */,
+				5223F09B29095003008B26C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5223F09F29095003008B26C2 /* PBXTargetDependency */,
+			);
+			name = AmanPersonalCardUITests;
+			productName = AmanPersonalCardUITests;
+			productReference = 5223F09D29095003008B26C2 /* AmanPersonalCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5223F07B29095001008B26C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5223F08229095001008B26C2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					5223F09229095003008B26C2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5223F08229095001008B26C2;
+					};
+					5223F09C29095003008B26C2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5223F08229095001008B26C2;
+					};
+				};
+			};
+			buildConfigurationList = 5223F07E29095001008B26C2 /* Build configuration list for PBXProject "AmanPersonalCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5223F07A29095001008B26C2;
+			productRefGroup = 5223F08429095001008B26C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5223F08229095001008B26C2 /* AmanPersonalCard */,
+				5223F09229095003008B26C2 /* AmanPersonalCardTests */,
+				5223F09C29095003008B26C2 /* AmanPersonalCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5223F08129095001008B26C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5223F0B229096307008B26C2 /* Pacifico-Regular.ttf in Resources */,
+				5223F08E29095002008B26C2 /* Preview Assets.xcassets in Resources */,
+				5223F08B29095002008B26C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5223F09129095003008B26C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5223F09B29095003008B26C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5223F07F29095001008B26C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5223F08929095001008B26C2 /* ContentView.swift in Sources */,
+				5223F08729095001008B26C2 /* AmanPersonalCardApp.swift in Sources */,
+				522C50C1295034CA002ACFC1 /* SwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5223F08F29095003008B26C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5223F09829095003008B26C2 /* AmanPersonalCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5223F09929095003008B26C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5223F0A229095003008B26C2 /* AmanPersonalCardUITests.swift in Sources */,
+				5223F0A429095003008B26C2 /* AmanPersonalCardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5223F09529095003008B26C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5223F08229095001008B26C2 /* AmanPersonalCard */;
+			targetProxy = 5223F09429095003008B26C2 /* PBXContainerItemProxy */;
+		};
+		5223F09F29095003008B26C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5223F08229095001008B26C2 /* AmanPersonalCard */;
+			targetProxy = 5223F09E29095003008B26C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5223F0A529095003008B26C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5223F0A629095003008B26C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5223F0A829095003008B26C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmanPersonalCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QP7569665;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmanPersonalCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demoApplication.AmanPersonalCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5223F0A929095003008B26C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmanPersonalCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QP7569665;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmanPersonalCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demoApplication.AmanPersonalCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5223F0AB29095003008B26C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QP7569665;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demoApplication.AmanPersonalCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmanPersonalCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmanPersonalCard";
+			};
+			name = Debug;
+		};
+		5223F0AC29095003008B26C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QP7569665;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demoApplication.AmanPersonalCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmanPersonalCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmanPersonalCard";
+			};
+			name = Release;
+		};
+		5223F0AE29095003008B26C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QP7569665;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demoApplication.AmanPersonalCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmanPersonalCard;
+			};
+			name = Debug;
+		};
+		5223F0AF29095003008B26C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QP7569665;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demoApplication.AmanPersonalCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmanPersonalCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5223F07E29095001008B26C2 /* Build configuration list for PBXProject "AmanPersonalCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5223F0A529095003008B26C2 /* Debug */,
+				5223F0A629095003008B26C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5223F0A729095003008B26C2 /* Build configuration list for PBXNativeTarget "AmanPersonalCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5223F0A829095003008B26C2 /* Debug */,
+				5223F0A929095003008B26C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5223F0AA29095003008B26C2 /* Build configuration list for PBXNativeTarget "AmanPersonalCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5223F0AB29095003008B26C2 /* Debug */,
+				5223F0AC29095003008B26C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5223F0AD29095003008B26C2 /* Build configuration list for PBXNativeTarget "AmanPersonalCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5223F0AE29095003008B26C2 /* Debug */,
+				5223F0AF29095003008B26C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5223F07B29095001008B26C2 /* Project object */;
+}
