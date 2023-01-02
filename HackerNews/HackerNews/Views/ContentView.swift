@@ -14,9 +14,13 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List(networkManager.posts) { p in
-                HStack {
-                    Text(String(p.points))
-                    Text(p.title)
+                NavigationLink {
+                    DetailView(url: p.url)
+                } label: {
+                    HStack {
+                        Text(String(p.points))
+                        Text(p.title)
+                    }
                 }
             }.navigationTitle("Tech Keda")
         }
